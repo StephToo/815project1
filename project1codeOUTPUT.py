@@ -14,10 +14,9 @@ with open('simulated_data_1.txt', 'r') as file1, open('simulated_data_2.txt', 'r
 plt.plot(data_1, label='Hydrogen Gas')
 plt.plot(data_2, label='Methane Gas')
 
-
-# Add labels and title to the plot
-plt.xlabel('Time (seconds)')
-plt.ylabel('Isobaric Deviation (sccm)')
-plt.title('Isobaric Deviation in Chemical Vapor Deposition System')
+# labels and title
+plt.xlabel('Time (min)')
+plt.ylabel('Change in Flow Rate (sccm)')
+plt.title('Flow Rate of Gases Over Time in Chemical Vapor Deposition System')
 plt.legend()
 plt.show()
