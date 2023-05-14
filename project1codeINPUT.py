@@ -9,7 +9,7 @@ def probability_distribution(parameter):
 parameter_value_1 = 0.33
 parameter_value_2 = 0.15
 
-# Simulate the experiment and save the results to two different text files
+# Simulate the experiment, store simulated results in a persistent data format
 # https://www.pythontutorial.net/python-basics/python-write-text-file/
 with open('simulated_data_1.txt', 'w') as file1, open('simulated_data_2.txt', 'w') as file2:
     for i in range(100):
