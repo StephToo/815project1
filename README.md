@@ -13,3 +13,8 @@ The second program is used to analyze the outcomes from the first program. The t
 Using matplotlib library, the program will plot the two outcomes on one graph of Flow Rate vs Time. 
 
 This information is used to better understand the behavior of gases in chemical vapor deposition systems. 
+
+Plots:
+h = 0.2 m = 1, lowhpng
+h = 0.1 m = 0.12 
+h = 1 m = 0.3 
