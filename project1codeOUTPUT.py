@@ -2,7 +2,7 @@
 
 import matplotlib.pyplot as plt
 
-# Read in the data from the two text files
+# read and analyze inputs from the two text files
 # https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python_FileText.html
 # https://www.pythontutorial.net/python-basics/python-write-text-file/
 with open('simulated_data_1.txt', 'r') as file1, open('simulated_data_2.txt', 'r') as file2:
