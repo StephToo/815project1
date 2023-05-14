@@ -9,4 +9,7 @@ numerical values based on a normal distribution. A text file for each parameter'
 The names of the files can be edited in the code. 
 
 Project1codeOUTPUT.py 
-The second program is used to analyze the outcomes from the first program. The text files will be called and analyzed. 
+The second program is used to analyze the outcomes from the first program. The text files will be opened and analyzed by line.
+Using matplotlib library, the program will plot the two outcomes on one graph of Flow Rate vs Time. 
+
+This information is used to better understand the behavior of gases in chemical vapor deposition systems. 
