@@ -2,7 +2,7 @@
 
 import matplotlib.pyplot as plt
 
-# read and analyze inputs from the two text files
+# Read in the data from the two text files
 # https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/Python_FileText.html
 # https://www.pythontutorial.net/python-basics/python-write-text-file/
 with open('simulated_data_1.txt', 'r') as file1, open('simulated_data_2.txt', 'r') as file2:
@@ -14,7 +14,8 @@ with open('simulated_data_1.txt', 'r') as file1, open('simulated_data_2.txt', 'r
 plt.plot(data_1, label='Hydrogen Gas')
 plt.plot(data_2, label='Methane Gas')
 
-# labels and title
+
+# Add labels and title to the plot
 plt.xlabel('Time (min)')
 plt.ylabel('Change in Flow Rate (sccm)')
 plt.title('Flow Rate of Gases Over Time in Chemical Vapor Deposition System')
